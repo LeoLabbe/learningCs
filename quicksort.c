@@ -2,13 +2,14 @@
 #include <stdlib.h>
 #include <time.h>
 
+// Cria um vetor dinamico
 typedef struct vector{
 	int totalTam;
 	int totalElements;
 	int* array;
 } Vector;
 
-
+//Funções do vector
 Vector* iniciarVector() {
 	Vector* newVec = (Vector*) malloc(sizeof(Vector));
 	
@@ -35,6 +36,7 @@ void addElement(Vector* currVec, int num) {
 	currVec -> totalElements += 1;
 }
 
+// Divide a lista
 int particionar(Vector* array, int esq, int dir)
 {
     int aux;
