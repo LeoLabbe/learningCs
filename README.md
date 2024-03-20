@@ -1,2 +1,2 @@
 # learningCs
-Contribuições para meus estudos em C/C++
+Contributions for my C/C++ studies, exercises from my Algorithms and Data Structures classes.
